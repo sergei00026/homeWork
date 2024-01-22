@@ -1,0 +1,14 @@
+.burgerMenuIcon {
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1038px;
+    margin: 0 auto;
+
+}
+
+.header h1 {
+}
