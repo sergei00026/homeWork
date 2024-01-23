@@ -19,8 +19,11 @@ const HW6 = () => {
     }
     const restore = () => {
         // делают студенты
+        const valueTest = restoreState<string>('hw6-editable-span-value', value)
+        console.log(valueTest)
 
     }
+
 
     return (
         <div id={'hw6'}>
@@ -31,6 +34,9 @@ const HW6 = () => {
                 <div className={s.editableSpanContainer}>
                     <SuperEditableSpan
                         id={'hw6-spanable-input'}
+                        onEnter={()=> {
+                            console.log("show modal")
+                        }}
                         value={value}
                         onChangeText={setValue}
                         spanProps={{

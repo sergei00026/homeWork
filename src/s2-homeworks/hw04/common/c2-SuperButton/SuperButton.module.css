@@ -1,13 +1,41 @@
 .button {
+    display: inline-flex;
+    padding: 5px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 3px;
+    background:  #06C;
+    color:  #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+    border: 1px solid #06C;
+
 }
 
 .disabled {
 }
 
 .secondary {
+    border-radius: 3px;
+    border: 1px solid #06C;
+    display: inline-flex;
+    padding: 5px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #06C;
+
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
 }
 
 .default {
+
 }
 
 .red {
